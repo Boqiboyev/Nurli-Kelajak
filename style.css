@@ -65,10 +65,28 @@ h1 {
 
 .lead {
   margin-top: 22px;
-  font-size: 1.08rem;
-  line-height: 1.8;
-  color: var(--muted);
   max-width: 780px;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.course-list span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .contact-block {
@@ -130,3 +148,4 @@ h1 {
     width: 100%;
   }
 }
+
